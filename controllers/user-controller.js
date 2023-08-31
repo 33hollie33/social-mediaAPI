@@ -91,7 +91,7 @@ addFriend({params}, res) {
 removeFriend({params}, res) {
 User.findOneAndUpdate(
   { _id: params.id},
-  { $pull: { friends: { friendId: params.friendId } } },
+  { $pull: { friends: params.friendId } },
   { new: true }
 )
   .then(dbUserData => {
