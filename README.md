@@ -27,6 +27,7 @@
 
   ## Installation
   npm i 
+  npm run start
 
   ## Tools
   JavaScript, NodeJS, MongoDB, Express
