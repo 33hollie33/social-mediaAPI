@@ -11,7 +11,7 @@
  GIVEN a social network API
  WHEN I enter the command to invoke the application
  THEN my server is started and the Mongoose models are synced to the MongoDB database
- WHEN I open API GET routes in Insomnia for users and thoughts
+ WHEN I open API GET routes in Insomnia or Postmanfor users and thoughts
  THEN the data for each of these routes is displayed in a formatted JSON
  WHEN I test API POST, PUT, and DELETE routes in Insomnia
  THEN I am able to successfully create, update, and delete users and thoughts in my database
@@ -40,3 +40,4 @@ This project is licensed under the terms of GPL3.0.  (https://www.gnu.org/licens
   Github: https://github.com/33hollie33 
  
  ## Link to a walk through demo here
+ https://drive.google.com/file/d/1iwhKSKu6_faBBm6RkbllN_jDGMfZ1RZC/view
